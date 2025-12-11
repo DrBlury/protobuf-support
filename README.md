@@ -1,9 +1,9 @@
-# vscode-proto3
+# Protobuf Support
 
-[![CI](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/DrBlury/vscode-proto3/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/vscode-proto3)
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.vscode-proto3?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.vscode-proto3)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.vscode-proto3)](https://marketplace.visualstudio.com/items?itemName=DrBlury.vscode-proto3)
+[![CI](https://github.com/DrBlury/protobuf-support/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/protobuf-support/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/DrBlury/protobuf-support/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/protobuf-support)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.protobuf-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.protobuf-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
 
 Protobuf 3 support for Visual Studio Code — syntax, validation, snippets, and quick compile/renumber workflows.
 
@@ -134,9 +134,9 @@ See [CONTRIBUTING](CONTRIBUTING.md). PRs that add tests and keep `npm run verify
 
 ## Top contributors
 
-![Top contributors](https://contrib.rocks/image?repo=DrBlury/vscode-proto3)
+![Top contributors](https://contrib.rocks/image?repo=DrBlury/protobuf-support)
 
-See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/vscode-proto3/graphs/contributors).
+See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/protobuf-support/graphs/contributors).
 
 ## Release Notes
 

@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.6.1
+
+### Changes
+
+- Renamed extension from vscode-proto3 to protobuf-support for marketplace publication
+
 ## 0.5.7 (Unreleased)
 
 ### Bug Fixes

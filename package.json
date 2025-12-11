@@ -1,15 +1,15 @@
 {
-  "name": "vscode-proto3",
-  "displayName": "vscode-proto3",
+  "name": "protobuf-support",
+  "displayName": "Protobuf Support",
   "description": "Protobuf 3 support for Visual Studio Code",
-  "version": "0.5.6",
+  "version": "0.6.1",
   "publisher": "DrBlury",
   "license": "SEE LICENSE IN LICENSE.txt",
   "icon": "images/vscode_extension_icon.png",
-  "homepage": "https://github.com/DrBlury/vscode-proto3/blob/master/README.md",
+  "homepage": "https://github.com/DrBlury/protobuf-support/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DrBlury/vscode-proto3"
+    "url": "https://github.com/DrBlury/protobuf-support"
   },
   "engines": {
     "vscode": "^1.75.0"
@@ -77,11 +77,11 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "vscode-proto3 configuration",
+      "title": "Protobuf Support configuration",
       "properties": {
         "protoc": {
           "type": "object",
-          "description": "vscode-proto3 configuration",
+          "description": "Protobuf Support configuration",
           "scope": "resource",
           "properties": {
             "path": {
@@ -135,7 +135,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
     "verify": "npm run lint && npm run lint:md && npm run format:check && npm test -- --forbid-only",
-    "package:vsix": "vsce package --out vscode-proto3-${npm_package_version}.vsix"
+    "package:vsix": "vsce package --out protobuf-support-${npm_package_version}.vsix"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.32.0",
