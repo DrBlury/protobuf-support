@@ -7,8 +7,8 @@ Thank you for your interest in contributing to Protobuf Support!
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/zxh0/vscode-proto3.git
-   cd vscode-proto3
+   git clone https://github.com/DrBlury/proto-support.git
+   cd proto-support
    ```
 
 2. Install dependencies:
@@ -75,7 +75,7 @@ Run `npm run verify` before committing to lint, markdown-lint, format-check, and
 
 ## Reporting Issues
 
-Please use the [GitHub issue tracker](https://github.com/zxh0/vscode-proto3/issues)
+Please use the [GitHub issue tracker](https://github.com/DrBlury/proto-support/issues)
 to report bugs or request features.
 
 When reporting bugs, please include:
