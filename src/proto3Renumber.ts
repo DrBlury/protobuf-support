@@ -17,7 +17,9 @@ export class Proto3RenumberCommand {
 
     const document = editor.document;
     if (document.languageId !== 'proto3') {
-      vscode.window.showWarningMessage('Protobuf: The renumber command only works on protobuf files.');
+      vscode.window.showWarningMessage(
+        'Protobuf: The renumber command only works on protobuf files.'
+      );
       return;
     }
 
@@ -36,7 +38,10 @@ export class Proto3RenumberCommand {
         : computeMessageEdits(sourceText, block);
 
     if (replacements.length === 0) {
-      vscode.window.setStatusBarMessage('Protobuf: Nothing to renumber in the current scope.', 4000);
+      vscode.window.setStatusBarMessage(
+        'Protobuf: Nothing to renumber in the current scope.',
+        4000
+      );
       return;
     }
 
