@@ -5,7 +5,7 @@
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.protobuf-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.protobuf-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
 
-Protobuf 3 support for Visual Studio Code — syntax, validation, snippets, and quick compile/renumber workflows.
+Protobuf support for Visual Studio Code — syntax, validation, snippets, and quick compile/renumber workflows.
 
 > ⚠️ **Project is looking for new maintainers.** If you're interested, please comment on issue #184.
 
@@ -27,13 +27,13 @@ Open the command palette (**Ctrl+Shift+P** / **Cmd+Shift+P**) and run:
 
 | Command | Description |
 | --- | --- |
-| `proto3: Compile All Protos` | Compile all workspace protos using configured `protoc.options`. |
-| `proto3: Compile This Proto` | Compile the active proto using configured `protoc.options`. |
-| `proto3: Renumber Fields/Enum Values` | Renumber fields from `1` and enum values from `0` in the current scope. |
+| `Protobuf: Compile All Protos` | Compile all workspace protos using configured `protoc.options`. |
+| `Protobuf: Compile This Proto` | Compile the active proto using configured `protoc.options`. |
+| `Protobuf: Renumber Fields/Enum Values` | Renumber fields from `1` and enum values from `0` in the current scope. |
 
 ### Renumbering
 
-While inside a message or enum, run `proto3: Renumber Fields/Enum Values`.
+While inside a message or enum, run `Protobuf: Renumber Fields/Enum Values`.
 Tags are rewritten so fields count up from `1` and enums from `0`.
 
 ### Snippets
