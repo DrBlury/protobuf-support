@@ -17,14 +17,14 @@ export class Proto3RenumberCommand {
 
     const document = editor.document;
     if (document.languageId !== 'proto3') {
-      vscode.window.showWarningMessage('proto3: The renumber command only works on proto3 files.');
+      vscode.window.showWarningMessage('Protobuf: The renumber command only works on protobuf files.');
       return;
     }
 
     const block = this.findBlock(document, editor.selection.active);
     if (!block) {
       vscode.window.showWarningMessage(
-        'proto3: Place the cursor inside a message or enum to renumber.'
+        'Protobuf: Place the cursor inside a message or enum to renumber.'
       );
       return;
     }
@@ -36,7 +36,7 @@ export class Proto3RenumberCommand {
         : computeMessageEdits(sourceText, block);
 
     if (replacements.length === 0) {
-      vscode.window.setStatusBarMessage('proto3: Nothing to renumber in the current scope.', 4000);
+      vscode.window.setStatusBarMessage('Protobuf: Nothing to renumber in the current scope.', 4000);
       return;
     }
 
@@ -47,7 +47,7 @@ export class Proto3RenumberCommand {
     });
 
     const noun = block.type === 'enum' ? 'enum values' : 'fields';
-    vscode.window.setStatusBarMessage(`proto3: Renumbered ${replacements.length} ${noun}.`, 4000);
+    vscode.window.setStatusBarMessage(`Protobuf: Renumbered ${replacements.length} ${noun}.`, 4000);
   }
 
   public static getDocumentTextEdits(document: vscode.TextDocument): vscode.TextEdit[] {
