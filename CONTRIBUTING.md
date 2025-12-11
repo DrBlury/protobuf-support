@@ -1,6 +1,6 @@
-# Contributing to Proto3 Support
+# Contributing to Protobuf Support
 
-Thank you for your interest in contributing to Proto3 Support!
+Thank you for your interest in contributing to Protobuf Support!
 
 ## Development Setup
 
