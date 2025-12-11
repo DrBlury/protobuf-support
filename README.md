@@ -1,7 +1,7 @@
 # Proto3 Support
 
-[![CI](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/DrBlury/vscode-proto3/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/vscode-proto3)
+[![CI](https://github.com/DrBlury/proto3-support/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/proto3-support/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/DrBlury/proto3-support/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/proto3-support)
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.proto3-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto3-support)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.proto3-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto3-support)
 
@@ -134,9 +134,9 @@ See [CONTRIBUTING](CONTRIBUTING.md). PRs that add tests and keep `npm run verify
 
 ## Top contributors
 
-![Top contributors](https://contrib.rocks/image?repo=DrBlury/vscode-proto3)
+![Top contributors](https://contrib.rocks/image?repo=DrBlury/proto3-support)
 
-See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/vscode-proto3/graphs/contributors).
+See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/proto3-support/graphs/contributors).
 
 ## Release Notes
 
