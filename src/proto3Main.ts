@@ -66,7 +66,7 @@ export function activate(ctx: vscode.ExtensionContext): void {
   });
 
   ctx.subscriptions.push(
-    vscode.commands.registerCommand('proto3.compile.one', () => {
+    vscode.commands.registerCommand('protobuf.compile.one', () => {
       const currentFile = vscode.window.activeTextEditor?.document;
       if (!currentFile) {
         return;
@@ -78,7 +78,7 @@ export function activate(ctx: vscode.ExtensionContext): void {
   );
 
   ctx.subscriptions.push(
-    vscode.commands.registerCommand('proto3.compile.all', () => {
+    vscode.commands.registerCommand('protobuf.compile.all', () => {
       const currentFile = vscode.window.activeTextEditor?.document;
       if (!currentFile) {
         return;
@@ -90,7 +90,7 @@ export function activate(ctx: vscode.ExtensionContext): void {
   );
 
   ctx.subscriptions.push(
-    vscode.commands.registerCommand('proto3.renumber.scope', () => {
+    vscode.commands.registerCommand('protobuf.renumber.scope', () => {
       Proto3RenumberCommand.run();
     })
   );

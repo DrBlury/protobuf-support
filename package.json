@@ -1,7 +1,7 @@
 {
   "name": "protobuf-support",
   "displayName": "Protobuf Support",
-  "description": "Protobuf 3 support for Visual Studio Code",
+  "description": "Protobuf support for Visual Studio Code",
   "version": "0.6.1",
   "publisher": "DrBlury",
   "license": "SEE LICENSE IN LICENSE.txt",
@@ -20,24 +20,24 @@
   ],
   "activationEvents": [
     "onLanguage:proto3",
-    "onCommand:proto3.compile.one",
-    "onCommand:proto3.compile.all",
-    "onCommand:proto3.renumber.scope"
+    "onCommand:protobuf.compile.one",
+    "onCommand:protobuf.compile.all",
+    "onCommand:protobuf.renumber.scope"
   ],
   "main": "./out/src/proto3Main",
   "contributes": {
     "commands": [
       {
-        "command": "proto3.compile.one",
-        "title": "proto3: Compile This Proto"
+        "command": "protobuf.compile.one",
+        "title": "Protobuf: Compile This Proto"
       },
       {
-        "command": "proto3.compile.all",
-        "title": "proto3: Compile All Protos"
+        "command": "protobuf.compile.all",
+        "title": "Protobuf: Compile All Protos"
       },
       {
-        "command": "proto3.renumber.scope",
-        "title": "proto3: Renumber Fields/Enum Values"
+        "command": "protobuf.renumber.scope",
+        "title": "Protobuf: Renumber Fields/Enum Values"
       }
     ],
     "languages": [
@@ -100,7 +100,7 @@
             "renumber_on_save": {
               "type": "boolean",
               "default": true,
-              "description": "Automatically renumber message fields and enum values whenever a proto3 file is saved"
+              "description": "Automatically renumber message fields and enum values whenever a protobuf file is saved"
             },
             "compile_on_save": {
               "type": "boolean",
