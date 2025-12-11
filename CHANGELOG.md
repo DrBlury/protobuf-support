@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.6.2
+
+### Changes
+
+- Renamed extension from protobuf-support to proto-support for marketplace publication
+
 ## 0.6.1
 
 ### Changes

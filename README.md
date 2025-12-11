@@ -1,9 +1,9 @@
 # Protobuf Support
 
-[![CI](https://github.com/DrBlury/protobuf-support/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/protobuf-support/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/DrBlury/protobuf-support/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/protobuf-support)
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.protobuf-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.protobuf-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-support)
+[![CI](https://github.com/DrBlury/proto-support/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/proto-support/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/DrBlury/proto-support/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/proto-support)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.proto-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto-support)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.proto-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto-support)
 
 Protobuf support for Visual Studio Code — syntax, validation, snippets, and quick compile/renumber workflows.
 
@@ -134,9 +134,9 @@ See [CONTRIBUTING](CONTRIBUTING.md). PRs that add tests and keep `npm run verify
 
 ## Top contributors
 
-![Top contributors](https://contrib.rocks/image?repo=DrBlury/protobuf-support)
+![Top contributors](https://contrib.rocks/image?repo=DrBlury/proto-support)
 
-See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/protobuf-support/graphs/contributors).
+See the full list on GitHub in the [contributors graph](https://github.com/DrBlury/proto-support/graphs/contributors).
 
 ## Release Notes
 
