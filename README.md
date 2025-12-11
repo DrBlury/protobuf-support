@@ -1,9 +1,9 @@
-# vscode-proto
+# Proto3 Support
 
 [![CI](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml/badge.svg)](https://github.com/DrBlury/vscode-proto3/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/DrBlury/vscode-proto3/branch/master/graph/badge.svg)](https://codecov.io/gh/DrBlury/vscode-proto3)
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.vscode-proto?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.vscode-proto)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.vscode-proto)](https://marketplace.visualstudio.com/items?itemName=DrBlury.vscode-proto)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DrBlury.proto3-support?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto3-support)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/DrBlury.proto3-support)](https://marketplace.visualstudio.com/items?itemName=DrBlury.proto3-support)
 
 Protobuf 3 support for Visual Studio Code — syntax, validation, snippets, and quick compile/renumber workflows.
 

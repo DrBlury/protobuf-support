@@ -1,6 +1,6 @@
-# Contributing to vscode-proto
+# Contributing to Proto3 Support
 
-Thank you for your interest in contributing to vscode-proto!
+Thank you for your interest in contributing to Proto3 Support!
 
 ## Development Setup
 
